@@ -1,0 +1,42 @@
+#wrapper {
+    width: 800px;
+    margin: 0 auto;
+    background-color:#eeeeee;
+}
+
+nav{
+    background-color:#dddddd;
+    height:40px;
+    width:100%;
+}
+
+nav a{
+    background-color:lightgrey;
+    font-family: arial;
+    color: black;
+    font-size: 25pt;
+    text-decoration: none;
+    padding: 0px 20px;
+    
+}
+
+nav a:hover{
+    background-color: grey;
+    font-family: arial;
+    color: black;
+}
+
+main{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+footer{
+    background-color: #cccccc;
+    height: 100px;
+}
+
+#footertext{
+    margin-left: 20px;
+    margin-right: 20px;
+}

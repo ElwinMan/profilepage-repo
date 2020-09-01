@@ -40,3 +40,44 @@ footer{
     margin-left: 20px;
     margin-right: 20px;
 }
+
+.question{
+    font-weight: bold;
+    margin: 0;
+}
+
+h1,h2,h3,h4,h5,p{
+    font-family:arial;
+}
+
+td {
+    border: 1px solid black;
+    text-align: center;
+}
+
+th {
+    border: 1px solid black;
+    text-align: center;
+}
+
+.tableWidths{
+    width: 750px;
+    margin-top: 25px;
+}
+
+.tableWidths td,th {
+    height: 40px;
+    font-size: 20px;
+}
+
+.gradeColor0 {
+    background-color: #eeeeee;
+}
+
+.gradeColor1 {
+    background-color: #00dd31;
+}
+
+.gradeColor2 {
+    background-color: #e90000;
+}

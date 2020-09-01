@@ -1,3 +1,7 @@
+body{
+    font-family: arial;
+}
+
 #wrapper {
     width: 800px;
     margin: 0 auto;
@@ -17,7 +21,7 @@ nav a{
     font-size: 25pt;
     text-decoration: none;
     padding: 0px 20px;
-    
+    border-radius: 20px;
 }
 
 nav a:hover{
@@ -50,14 +54,10 @@ h1,h2,h3,h4,h5,p{
     font-family:arial;
 }
 
-td {
-    border: 1px solid black;
-    text-align: center;
-}
-
-th {
-    border: 1px solid black;
-    text-align: center;
+a {
+    font-family: arial;
+    text-decoration: none;
+    color: black;
 }
 
 .tableWidths{
@@ -68,6 +68,8 @@ th {
 .tableWidths td,th {
     height: 40px;
     font-size: 20px;
+    border: 1px solid black;
+    text-align: center;
 }
 
 .gradeColor0 {
@@ -80,4 +82,57 @@ th {
 
 .gradeColor2 {
     background-color: #e90000;
+}
+
+#profileContainer{
+    height: 200px;
+    width: 750px;
+}
+
+#profileDisc {
+    height:200px;
+    width: 500px;
+    float: left;
+}
+
+.profilePictureContainer {
+    height: 200px;
+    width: 200px;
+    margin-left: 50px;
+    float: left;
+}
+
+.listContainer{
+    height: 200px;
+    width: 750px;
+}
+
+.listContainer{
+    height: 200px;
+    width: 750px;
+}
+
+.topList {
+    height:200px;
+    width:220px;
+    float: left;
+}
+
+.topPictureContainer {
+    height: 200px;
+    width: 500px;
+    margin-left: 25px;
+    float: left;
+}
+
+.topListPictures{
+    height: 150px;
+    float: left;
+    margin-top: 20px;
+}
+
+.topListPictures2{
+    height: 100px;
+    float: left;
+    margin-top: 20px;
 }

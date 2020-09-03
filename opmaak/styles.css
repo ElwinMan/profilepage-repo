@@ -1,95 +1,92 @@
-body{
+/* global */
+* {
     font-family: arial;
 }
 
-#wrapper {
+body {
+    background-color: #aaaaaa;
+}
+
+.wrapper {
     width: 800px;
     margin: 0 auto;
     background-color:#eeeeee;
 }
 
-nav{
-    background-color:#dddddd;
-    height:40px;
-    width:100%;
+main{
+    margin: 40px 20px 40px 20px;
 }
 
-nav a{
-    background-color:lightgrey;
-    font-family: arial;
+a {
+    text-decoration: none;
     color: black;
+}
+
+/* nav */
+nav {
+    background-color:#dddddd;
+    background-image:radial-gradient(#dddddd ,70% , #aaaaaa);
+    height:50px;
+    width:100%;
+    position: fixed;
+    top: 0px;
+    left: 0px;  
+    display: flex;
+    align-items: center;
+    z-index: 2;
+}
+
+nav a {
+    background-color:lightgrey;
+    background-image:linear-gradient(to top,#999999, #dddddd);
+    font-family: arial;
     font-size: 25pt;
     text-decoration: none;
     padding: 0px 20px;
     border-radius: 20px;
 }
 
-nav a:hover{
+nav a:hover {
+    animation-name: aHover;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
     background-color: grey;
-    font-family: arial;
-    color: black;
 }
 
-main{
-    margin-left: 20px;
-    margin-right: 20px;
+@keyframes aHover {
+    from {
+        opacity: 1;
+    }
+    to {
+        opacity: 0.6;
+    }
 }
 
+.navFiller {
+    background-color:#dddddd;
+    height:40px;
+    width:800px;
+}
+
+/* footer */
 footer{
     background-color: #cccccc;
-    height: 100px;
+    height: 120px;
 }
 
-#footertext{
+.footertext{
     margin-left: 20px;
     margin-right: 20px;
+    padding: 1px;
 }
 
-.question{
-    font-weight: bold;
-    margin: 0;
-}
-
-h1,h2,h3,h4,h5,p{
-    font-family:arial;
-}
-
-a {
-    font-family: arial;
-    text-decoration: none;
-    color: black;
-}
-
-.tableWidths{
-    width: 750px;
-    margin-top: 25px;
-}
-
-.tableWidths td,th {
-    height: 40px;
-    font-size: 20px;
-    border: 1px solid black;
-    text-align: center;
-}
-
-.gradeColor0 {
-    background-color: #eeeeee;
-}
-
-.gradeColor1 {
-    background-color: #00dd31;
-}
-
-.gradeColor2 {
-    background-color: #e90000;
-}
-
-#profileContainer{
+/* profile */
+.profileContainer{
     height: 200px;
     width: 750px;
 }
 
-#profileDisc {
+.profileDisc {
     height:200px;
     width: 500px;
     float: left;
@@ -101,12 +98,7 @@ a {
     margin-left: 50px;
     float: left;
 }
-
-.listContainer{
-    height: 200px;
-    width: 750px;
-}
-
+/*Top list*/
 .listContainer{
     height: 200px;
     width: 750px;
@@ -131,8 +123,69 @@ a {
     margin-top: 20px;
 }
 
+.zoom:hover {
+    animation-name: zoom;
+    animation-duration: 300ms;
+    animation-fill-mode: forwards;
+    animation-timing-function: ease-in;
+}
+
+@keyframes zoom {
+    from {
+        transform: scale(1);
+    }   
+    to {
+        transform: scale(2);
+        z-index: 2;
+    }
+}
+
+/* games picture*/
 .topListPictures2{
     height: 100px;
     float: left;
     margin-top: 20px;
+}
+
+ /* dashboard */
+.tableContainer {
+    background-color: #dddddd;
+    width: 750px;
+    height: 550px;
+}
+ 
+.tableWidths{
+    width: 720px;
+    height: 500px;
+    margin-top: 25px;
+    background-color:#eeeeee;
+    position: relative;
+    left: 15px;
+    top: 15px;
+
+}
+
+.tableWidths td,th {
+    height: 30px;
+    font-size: 20px;
+    border: 1px solid black;
+    text-align: center;
+}
+
+.gradeColor0 {
+    background-color: #eeeeee;
+}
+
+.gradeColor1 {
+    background-color: #03a827d2;
+}
+
+.gradeColor2 {
+    background-color: #ce0707e3;
+}
+
+/* FAQ */
+.question{
+    font-weight: bold;
+    margin: 0;
 }

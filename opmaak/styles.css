@@ -1,4 +1,4 @@
-/* global */
+/* -----------global----------- */
 * {
     font-family: arial;
 }
@@ -26,7 +26,7 @@ a {
     text-align: center;
 }
 
-/* nav */
+/* -----------nav----------- */
 nav {
     background-color:#dddddd;
     background-image:radial-gradient(#dddddd ,70% , #aaaaaa);
@@ -59,7 +59,7 @@ nav a:hover {
 
 @keyframes aHover {
     from {
-        opacity: 1;
+
     }
     to {
         opacity: 0.6;
@@ -72,19 +72,19 @@ nav a:hover {
     width:800px;
 }
 
-/* footer */
+/* -----------footer----------- */
 footer{
     background-color: #cccccc;
     height: 120px;
 }
 
-.footertext{
+.footerText{
     margin-left: 20px;
     margin-right: 20px;
     padding: 1px;
 }
 
-/* profile */
+/* -----------profile----------- */
 .profileContainer{
     height: 200px;
     width: 750px;
@@ -151,7 +151,7 @@ footer{
     margin-top: 20px;
 }
 
-/* dashboard */
+/* -----------dashboard----------- */
 
 /* grid Container */
 .gridContainer {
@@ -178,7 +178,7 @@ footer{
 }
 
 .gridContainer h5 {
-    background-color: #acbdd3;
+    background-image:radial-gradient(#acbdd3 40%, #5d80b5 150%);
     margin-top: 0px;
     padding: 5px 3px;
     height: 15%;
@@ -208,12 +208,12 @@ footer{
 /* grids */
 
 .year {
-    background-color: #5d80b6;
+    background-image:radial-gradient(#acbdd3 25%,#5d80b6 140%);
     grid-area: year;
 }
 
 .EC {
-    background-color: #acbdd3;
+    background-image:radial-gradient(#acbdd3 25%, #5d80b6 160%);
     grid-area: EC;
 }
 
@@ -222,7 +222,7 @@ footer{
 }
 
 .item1 {
-    grid-area: item1;
+    grid-area: item1; 
 }
 
 .item2 {
@@ -302,7 +302,7 @@ footer{
     background-color: #ce0707e3;
 }
 
-/* FAQ */
+/* -----------FAQ----------- */
 .question{
     font-weight: bold;
     margin: 0;

@@ -22,10 +22,6 @@ a {
     color: black;
 }
 
-.center {
-    text-align: center;
-}
-
 /* -----------nav----------- */
 nav {
     background-color:#dddddd;
@@ -216,11 +212,13 @@ footer{
 .year {
     background-image:radial-gradient(#acbdd3 25%,#5d80b6 140%);
     grid-area: year;
+    text-align: center;
 }
 
 .EC {
     background-image:radial-gradient(#acbdd3 25%, #5d80b6 160%);
     grid-area: EC;
+    text-align: center;
 }
 
 .b1 {

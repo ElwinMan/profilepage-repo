@@ -102,6 +102,7 @@ footer{
 .listContainer{
     height: 200px;
     width: 750px;
+    position: relative;
 }
 
 .topList {
@@ -122,8 +123,24 @@ footer{
     float: left;
     margin-top: 20px;
 }
+ /* making picture pop up */
+.hide {
+    display: none;
+}
 
-.zoom:hover {
+.hide img {
+    height: 250px;
+    border: grey 10px solid;
+}
+
+.zoom:hover + .hide {
+    display: block;
+    position: absolute;
+    top: -250px;
+
+}
+
+/* .zoom:hover {
     animation-name: zoom;
     animation-duration: 300ms;
     animation-fill-mode: forwards;
@@ -138,7 +155,7 @@ footer{
         transform: scale(2);
         z-index: 2;
     }
-}
+} */
 
 /* games picture*/
 .topListPictures2{

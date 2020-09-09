@@ -123,21 +123,35 @@ footer{
     float: left;
     margin-top: 20px;
 }
+
+/* games picture*/
+.topListPictures2{
+    height: 100px;
+    float: left;
+    margin-top: 20px;
+}
+
  /* making picture pop up */
 .hide {
     display: none;
 }
 
+.hide a h3 {
+    color: red;
+    position: absolute;
+    top: 210px;
+    left: 10px;
+    font-size: 12pt;
+}
+
 .hide img {
     height: 250px;
-    border: grey 10px solid;
 }
 
 .zoom:hover + .hide {
     display: block;
     position: absolute;
-    top: -250px;
-
+    top: -230px;
 }
 
 /* .zoom:hover {
@@ -156,13 +170,6 @@ footer{
         z-index: 2;
     }
 } */
-
-/* games picture*/
-.topListPictures2{
-    height: 100px;
-    float: left;
-    margin-top: 20px;
-}
 
 /* -----------dashboard----------- */
 
@@ -327,4 +334,18 @@ footer{
 .question{
     font-weight: bold;
     margin: 0;
+}
+
+/* -----------PoE----------- */
+
+.poeImg {
+    height: 75px;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%,0);
+}
+
+.passiveTree {
+    height: 200px;
+    float: right;
 }

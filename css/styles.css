@@ -19,7 +19,10 @@ main{
 
 a {
     text-decoration: none;
-    color: black;
+}
+
+.center {
+    text-align: center;
 }
 
 /* -----------nav----------- */
@@ -39,6 +42,7 @@ nav {
 nav a {
     background-color:lightgrey;
     background-image:linear-gradient(to top,#999999, #dddddd);
+    color: black;
     font-family: arial;
     font-size: 25pt;
     text-decoration: none;
@@ -312,6 +316,16 @@ footer{
 .gradeColor2 {
     background-color: #ce0707e3;
 }
+/* -----------My Motivation----------- */
+.apaMain {
+    margin: 0px 30px 00px 30px;
+}
+
+.apaFont {
+    font-family: arial;
+    font-size: 11pt
+}
+
 
 /* -----------FAQ----------- */
 .question{

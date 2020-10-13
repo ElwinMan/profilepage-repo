@@ -318,14 +318,13 @@ footer{
 }
 /* -----------My Motivation----------- */
 .apaMain {
-    margin: 0px 30px 00px 30px;
+    margin: 0px 30px 0px 30px;
 }
 
 .apaFont {
     font-family: arial;
     font-size: 11pt
 }
-
 
 /* -----------FAQ----------- */
 .question{

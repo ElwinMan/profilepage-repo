@@ -15,6 +15,7 @@ body {
 
 main{
     margin: 40px 20px 40px 20px;
+    min-height: 100px;
 }
 
 a {
@@ -324,6 +325,53 @@ footer{
 .apaFont {
     font-family: arial;
     font-size: 11pt
+}
+
+/* -----------Profession----------- */
+.company {
+    background-color: #e8e8e8;
+    margin: 15px;
+    padding: 5px;
+}
+
+.companyHeaders {
+    float: left;
+    width: 100%;
+}
+
+.companyIcon {
+    height: 50px;
+    float: left;
+}
+
+.companyName {
+    float: left;
+}
+
+.companyDetails {
+    float: initial; 
+    width: 100%;
+    margin-bottom: 130px;
+}
+
+.companyImages {
+    width: 300px;
+}
+
+.ictRoles {
+    background-color: lightgrey;
+    width: 45%;
+    margin: 5px;
+    padding: 2px 10px;
+    float: left;
+}
+
+.languages {
+    background-color: lightgrey;
+    width: max-content;
+    padding: 10px;
+    margin: 5px;
+    float: left;
 }
 
 /* -----------FAQ----------- */
